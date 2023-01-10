@@ -19,240 +19,422 @@ soprano = \relative c'' {
   \global
   % Music follows here.
  %1
- r2 r4 r8 a 
+ r1
+ %2
+ r2 r4 a
+ %3
  g4 g8 g e4 e8 g
- f2 r4 r8 f
- g4 g8 a bes4 bes8 bes 
- bes4 a a r8 a
+ %4
+ f2 r4 f
+ %5
+ g4 g8 a bes8 bes r bes 
  %6
- b4 b8 c d4 d8 d 
+ bes4 a a r8 a
+ %7
+ b4 b8 cis d4 r8 d16 d 
+ %8
  d4 cis cis r8 cis
+ %9
  d4 d a a8 c
- bes4 bes r r8 bes
- a4 a8 a e4 e8 g 
- f4 g a r8 a
+ %10
+ bes4 bes r bes
+ %11
+ a4 a8 a e4 e8 g
  %12
- bes4 bes8 bes g4 g8 bes
- f4 a r r8 a
- g4 g8 g e4 e8 c
+ f4 g a r8 a
+ %13
+ bes8 r bes bes e,4 f8. g16
+ %14
+ f4 a r a
+ %15
+ g4 g8 g e4 e8. c16
+ %16
  d4 d r2
  % end first verse
- %16
- r2 r4 r8 a' 
+ %17
+ r2 r4 a'
+ %18
  g4 g8 g e4 e8 g
- f2 r4 r8 f
- g4 a bes4 bes8 bes 
- bes4 a8 a a4 r8 a 
-  %21
- b4. c8 d4 d8 d 
+ %19
+ f2 r4 f
+ %20
+ g4 a bes8 bes r bes 
+ %21
+ bes8 a a  r a4 r8 a 
+ %22
+ b4 r8 cis8 d4 d8 d
+ %23
  d4 cis cis r8 cis
- d4 d a a8 c
- bes4 bes r r8 bes
+ %24
+ d4 d a a8. c16
  %25
- a4 a e e8 g 
+ bes4 bes r bes
+ %26
+ a4 a e8 e r g
+ %27
  f4 g a r8 a
- bes4 bes8 bes g4 g8 bes
- f4 a r r8 a
+ %28
+ bes4 bes8 bes e,4 f8 g
  %29
+ f4 a r a
+ %30
  g4 g8 g e4 e8 c
+ %31
  d4 d r2
   % end second verse
-  %31
+ %32
  r2 r4 r8 a' 
+ %33
  g4 g8 g e4 e8 g
+ %34
  f4 f8 g a4 r8 a
- g4 g8 a bes4 bes8 bes
  %35
+ g8 g8 a4 bes bes8 bes
+ %36
  bes4 a a r8 a 
- b4 b8 c d4 d 
- d4 cis r4 r8 cis
+ %37
+ b4 b8 cis d4 d 
  %38
- d4 d a a8 c
+ d4 cis r4 r8 cis
+ %39
+ d4 d a a8 r16 c
+ %40
  bes4 bes g r8 bes
- a4 a e4 e8 g 
  %41
+ a4 a e8 e r g 
+ %42
  f4 g a r8 a
- bes4 bes g4 g8 bes
+ %43
+ bes4 bes e, f8 g
+ %44
  f4 a a r8 a
+ %45
  g4 g8 g e4 e8 c
- d4 d d2
  %46
- r2 r4 r8 a'
- g4 g8 g e4 c
+ d4 d d2
+ %47
+ r2 r4 a'
+ %48
+ g4 g8 g e4 e
+ %49
  d4 d r2
   % end
 }
 
-alto = \relative c' {
+alto = \relative c'' {
   \global
-% Music follows here.
+  % Music follows here.
  %1
- r2 r4 r8 a 
+ r1
+ %2
+ r2 r4 a
+ %3
  g4 g8 g e4 e8 g
- f2 r4 r8 f
- g4 g8 a bes4 bes8 bes 
- bes4 a a r8 a
+ %4
+ f2 r4 f
+ %5
+ g4 g8 a bes8 bes r bes 
  %6
- b4 b8 c d4 d8 d 
+ bes4 a a r8 a
+ %7
+ b4 b8 cis d4 r8 d16 d 
+ %8
  d4 cis cis r8 cis
+ %9
  d4 d a a8 c
- bes4 bes r r8 bes
- a4 a8 a e4 e8 g 
- f4 g a r8 a
+ %10
+ bes4 bes r bes
+ %11
+ a4 a8 a e4 e8 g
  %12
- bes4 bes8 bes g4 g8 bes
- f4 a r r8 a
- g4 g8 g e4 e8 c
+ f4 g a r8 a
+ %13
+ bes8 r bes bes e,4 f8. g16
+ %14
+ f4 a r a
+ %15
+ g4 g8 g e4 e8. c16
+ %16
  d4 d r2
  % end first verse
- %16
- r2 r4 r8 a' 
+ %17
+ r2 r4 a'
+ %18
  g4 g8 g e4 e8 g
- f2 r4 r8 f
- g4 a bes4 bes8 bes 
- bes4 a8 a a4 r8 a 
-  %21
- b4. c8 d4 d8 d 
+ %19
+ f2 r4 f
+ %20
+ g4 a bes8 bes r bes 
+ %21
+ bes8 a a  r a4 r8 a 
+ %22
+ b4 r8 cis8 d4 d8 d
+ %23
  d4 cis cis r8 cis
- d4 d a a8 c
- bes4 bes r r8 bes
- a4 a e e8 g 
+ %24
+ d4 d a a8. c16
+ %25
+ bes4 bes r bes
+ %26
+ a4 a e8 e r g
+ %27
  f4 g a r8 a
- bes4 bes8 bes g4 g8 bes
- f4 a r r8 a
+ %28
+ bes4 bes8 bes e,4 f8 g
+ %29
+ f4 a r a
+ %30
  g4 g8 g e4 e8 c
+ %31
  d4 d r2
   % end second verse
-  r2 r4 r8 a' 
+ %32
+ r2 r4 r8 a' 
+ %33
  g4 g8 g e4 e8 g
- f2 r4 r8 f
- g4 g8 a bes4 bes8 bes 
+ %34
+ f4 f8 g a4 r8 a
+ %35
+ g8 g8 a4 bes bes8 bes
+ %36
  bes4 a a r8 a 
- b4 b8 c d4 d8 d 
- d4 cis cis r8 cis
- d4 d a a8 c
- bes4 bes r r8 bes
- a4 a8 a e4 e8 g 
+ %37
+ b4 b8 cis d4 d 
+ %38
+ d4 cis r4 r8 cis
+ %39
+ d4 d a a8 r16 c
+ %40
+ bes4 bes g r8 bes
+ %41
+ a4 a e8 e r g 
+ %42
  f4 g a r8 a
- bes4 bes8 bes g4 g8 bes
- f4 a r r8 a
+ %43
+ bes4 bes e, f8 g
+ %44
+ f4 a a r8 a
+ %45
  g4 g8 g e4 e8 c
+ %46
+ d4 d d2
+ %47
+ r2 r4 a'
+ %48
+ g4 g8 g e4 e
+ %49
  d4 d r2
   % end
 }
 
 tenor = \relative c' {
   \global
-% Music follows here.
+  % Music follows here.
  %1
- r2 r4 r8 a 
+ r1
+ %2
+ r2 r4 a
+ %3
  g4 g8 g e4 e8 g
- f2 r4 r8 f
- g4 g8 a bes4 bes8 bes 
- bes4 a a r8 a
+ %4
+ f2 r4 f
+ %5
+ g4 g8 a bes8 bes r bes 
  %6
- b4 b8 c d4 d8 d 
+ bes4 a a r8 a
+ %7
+ b4 b8 cis d4 r8 d16 d 
+ %8
  d4 cis cis r8 cis
+ %9
  d4 d a a8 c
- bes4 bes r r8 bes
- a4 a8 a e4 e8 g 
- f4 g a r8 a
+ %10
+ bes4 bes r bes
+ %11
+ a4 a8 a e4 e8 g
  %12
- bes4 bes8 bes g4 g8 bes
- f4 a r r8 a
- g4 g8 g e4 e8 c
+ f4 g a r8 a
+ %13
+ bes8 r bes bes e,4 f8. g16
+ %14
+ f4 a r a
+ %15
+ g4 g8 g e4 e8. c16
+ %16
  d4 d r2
  % end first verse
- %16
- r2 r4 r8 a' 
+ %17
+ r2 r4 a'
+ %18
  g4 g8 g e4 e8 g
- f2 r4 r8 f
- g4 a bes4 bes8 bes 
- bes4 a8 a a4 r8 a 
-  %21
- b4. c8 d4 d8 d 
+ %19
+ f2 r4 f
+ %20
+ g4 a bes8 bes r bes 
+ %21
+ bes8 a a  r a4 r8 a 
+ %22
+ b4 r8 cis8 d4 d8 d
+ %23
  d4 cis cis r8 cis
- d4 d a a8 c
- bes4 bes r r8 bes
- a4 a e e8 g 
+ %24
+ d4 d a a8. c16
+ %25
+ bes4 bes r bes
+ %26
+ a4 a e8 e r g
+ %27
  f4 g a r8 a
- bes4 bes8 bes g4 g8 bes
- f4 a r r8 a
+ %28
+ bes4 bes8 bes e,4 f8 g
+ %29
+ f4 a r a
+ %30
  g4 g8 g e4 e8 c
+ %31
  d4 d r2
   % end second verse
-  r2 r4 r8 a' 
+ %32
+ r2 r4 r8 a' 
+ %33
  g4 g8 g e4 e8 g
- f2 r4 r8 f
- g4 g8 a bes4 bes8 bes 
+ %34
+ f4 f8 g a4 r8 a
+ %35
+ g8 g8 a4 bes bes8 bes
+ %36
  bes4 a a r8 a 
- b4 b8 c d4 d8 d 
- d4 cis cis r8 cis
- d4 d a a8 c
- bes4 bes r r8 bes
- a4 a8 a e4 e8 g 
+ %37
+ b4 b8 cis d4 d 
+ %38
+ d4 cis r4 r8 cis
+ %39
+ d4 d a a8 r16 c
+ %40
+ bes4 bes g r8 bes
+ %41
+ a4 a e8 e r g 
+ %42
  f4 g a r8 a
- bes4 bes8 bes g4 g8 bes
- f4 a r r8 a
+ %43
+ bes4 bes e, f8 g
+ %44
+ f4 a a r8 a
+ %45
  g4 g8 g e4 e8 c
+ %46
+ d4 d d2
+ %47
+ r2 r4 a'
+ %48
+ g4 g8 g e4 e
+ %49
  d4 d r2
   % end
 }
 
 bass = \relative c {
   \global
-% Music follows here.
+  % Music follows here.
  %1
- r2 r4 r8 a 
- g4 g8 g e4 e8 g
- f2 r4 r8 f
- g4 g8 a bes4 bes8 bes 
- bes4 a a r8 a
+ r1
+ %2
+ r
+ %3
+ r
+ %4
+ d4 des c4 c4
+ %5
+ g4 g8 g c c r c
  %6
- b4 b8 c d4 d8 d 
- d4 cis cis r8 cis
+ f4 g f r8 f
+ %7
+ e4 e8 e e4 r8 e16 gis
+ %8
+ e8 d  cis b a4 r8 a
+ %9
  d4 d a a8 c
- bes4 bes r r8 bes
- a4 a8 a e4 e8 g 
- f4 g a r8 a
+ %10
+ bes4 bes r bes
+ %11
+ a4 a8 a e4 e8 g
  %12
- bes4 bes8 bes g4 g8 bes
- f4 a r r8 a
- g4 g8 g e4 e8 c
+ f4 g a r8 a
+ %13
+ bes8 r bes bes e,4 f8. g16
+ %14
+ f4 a r a
+ %15
+ g4 g8 g e4 e8. c16
+ %16
  d4 d r2
  % end first verse
- %16
- r2 r4 r8 a' 
+ %17
+ r2 r4 a'
+ %18
  g4 g8 g e4 e8 g
- f2 r4 r8 f
- g4 a bes4 bes8 bes 
- bes4 a8 a a4 r8 a 
-  %21
- b4. c8 d4 d8 d 
+ %19
+ f2 r4 f
+ %20
+ g4 a bes8 bes r bes 
+ %21
+ bes8 a a  r a4 r8 a 
+ %22
+ b4 r8 cis8 d4 d8 d
+ %23
  d4 cis cis r8 cis
- d4 d a a8 c
- bes4 bes r r8 bes
- a4 a e e8 g 
+ %24
+ d4 d a a8. c16
+ %25
+ bes4 bes r bes
+ %26
+ a4 a e8 e r g
+ %27
  f4 g a r8 a
- bes4 bes8 bes g4 g8 bes
- f4 a r r8 a
+ %28
+ bes4 bes8 bes e,4 f8 g
+ %29
+ f4 a r a
+ %30
  g4 g8 g e4 e8 c
+ %31
  d4 d r2
   % end second verse
-  r2 r4 r8 a' 
+ %32
+ r2 r4 r8 a' 
+ %33
  g4 g8 g e4 e8 g
- f2 r4 r8 f
- g4 g8 a bes4 bes8 bes 
+ %34
+ f4 f8 g a4 r8 a
+ %35
+ g8 g8 a4 bes bes8 bes
+ %36
  bes4 a a r8 a 
- b4 b8 c d4 d8 d 
- d4 cis cis r8 cis
- d4 d a a8 c
- bes4 bes r r8 bes
- a4 a8 a e4 e8 g 
+ %37
+ b4 b8 cis d4 d 
+ %38
+ d4 cis r4 r8 cis
+ %39
+ d4 d a a8 r16 c
+ %40
+ bes4 bes g r8 bes
+ %41
+ a4 a e8 e r g 
+ %42
  f4 g a r8 a
- bes4 bes8 bes g4 g8 bes
- f4 a r r8 a
+ %43
+ bes4 bes e, f8 g
+ %44
+ f4 a a r8 a
+ %45
  g4 g8 g e4 e8 c
+ %46
+ d4 d d2
+ %47
+ r2 r4 a'
+ %48
+ g4 g8 g e4 e
+ %49
  d4 d r2
   % end
 }
@@ -346,9 +528,10 @@ så ock Lars i Ku -- jas kä -- ring.
 
 bassVerse = \lyricmode {
   % Lyrics follow here.
-Vid By -- mon på vä -- gen till Byn,
+
+Byn - -,
 där bor Lars i Ku -- ja i sko -- gens bryn.
-I hem -- man -- et Byn, om jag ej tar fel,
+I hem -- man -- et Byn, om jag ej -  tar - fel,
 de ä -- ga, han och hans kä -- ring,
 en hun -- dra -- de -- tre -- tti -- o -- tre -- dje -- del
 med äng och med å -- ker och är -- ing,
@@ -400,58 +583,106 @@ right = \relative c'' {
   \global
   % Music follows here.
  %1
- r2 r4 r8 a 
+ r1
+ %2
+ r2 r4 a
+ %3
  g4 g8 g e4 e8 g
- f2 r4 r8 f
- g4 g8 a bes4 bes8 bes 
- bes4 a a r8 a
+ %4
+ f2 r4 f
+ %5
+ g4 g8 a bes8 bes r bes 
  %6
- b4 b8 c d4 d8 d 
+ bes4 a a r8 a
+ %7
+ b4 b8 cis d4 r8 d16 d 
+ %8
  d4 cis cis r8 cis
+ %9
  d4 d a a8 c
- bes4 bes r r8 bes
- a4 a8 a e4 e8 g 
- f4 g a r8 a
+ %10
+ bes4 bes r bes
+ %11
+ a4 a8 a e4 e8 g
  %12
- bes4 bes8 bes g4 g8 bes
- f4 a r r8 a
- g4 g8 g e4 e8 c
+ f4 g a r8 a
+ %13
+ bes8 r bes bes e,4 f8. g16
+ %14
+ f4 a r a
+ %15
+ g4 g8 g e4 e8. c16
+ %16
  d4 d r2
  % end first verse
- %16
- r2 r4 r8 a' 
+ %17
+ r2 r4 a'
+ %18
  g4 g8 g e4 e8 g
- f2 r4 r8 f
- g4 a bes4 bes8 bes 
- bes4 a8 a a4 r8 a 
- b4 b8 c d4 d8 d 
+ %19
+ f2 r4 f
+ %20
+ g4 a bes8 bes r bes 
+ %21
+ bes8 a a  r a4 r8 a 
+ %22
+ b4 r8 cis8 d4 d8 d
+ %23
  d4 cis cis r8 cis
- d4 d a a8 c
- bes4 bes r r8 bes
- a4 a8 a e4 e8 g 
+ %24
+ d4 d a a8. c16
+ %25
+ bes4 bes r bes
+ %26
+ a4 a e8 e r g
+ %27
  f4 g a r8 a
- bes4 bes8 bes g4 g8 bes
- f4 a r r8 a
+ %28
+ bes4 bes8 bes e,4 f8 g
+ %29
+ f4 a r a
+ %30
  g4 g8 g e4 e8 c
+ %31
  d4 d r2
   % end second verse
-  r2 r4 r8 a' 
+ %32
+ r2 r4 r8 a' 
+ %33
  g4 g8 g e4 e8 g
- f2 r4 r8 f
- g4 g8 a bes4 bes8 bes 
+ %34
+ f4 f8 g a4 r8 a
+ %35
+ g8 g8 a4 bes bes8 bes
+ %36
  bes4 a a r8 a 
- b4 b8 c d4 d8 d 
- d4 cis cis r8 cis
- d4 d a a8 c
- bes4 bes r r8 bes
- a4 a8 a e4 e8 g 
+ %37
+ b4 b8 cis d4 d 
+ %38
+ d4 cis r4 r8 cis
+ %39
+ d4 d a a8 r16 c
+ %40
+ bes4 bes g r8 bes
+ %41
+ a4 a e8 e r g 
+ %42
  f4 g a r8 a
- bes4 bes8 bes g4 g8 bes
- f4 a r r8 a
+ %43
+ bes4 bes e, f8 g
+ %44
+ f4 a a r8 a
+ %45
  g4 g8 g e4 e8 c
+ %46
+ d4 d d2
+ %47
+ r2 r4 a'
+ %48
+ g4 g8 g e4 e
+ %49
  d4 d r2
   % end
- 
 }
 
 left = \relative c' {
@@ -460,10 +691,12 @@ left = \relative c' {
   c4 c g c
 }
 
+
 chordNames = \chordmode {
   \global
   % Chords follow here.
-  r1 
+  r1
+  r1
   a:7
   d:min7
   g2:min7 c:7
@@ -524,7 +757,7 @@ chordsPart = \new ChordNames \chordNames
 \score {
   <<
     \choirPart
-    \pianoPart
+   % \pianoPart
     \chordsPart
   >>
   \layout { }
