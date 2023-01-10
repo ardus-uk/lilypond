@@ -341,29 +341,29 @@ bass = \relative c {
  %2
  r
  %3
- r
+ a1
  %4
- d4 des c4 c4
+ d4 e f d
  %5
- g4 g8 g c c r c
+ g,4 g'8 d c c r c
  %6
- f4 g f r8 f
+ f4 f f r8 f
  %7
- e4 e8 e e4 r8 e16 gis
+ e4 b'8 a gis4 r8 e16 e
  %8
  e8 d  cis b a4 r8 a
  %9
- d4 d a a8 c
+ d4 d d d8 fis
  %10
- bes4 bes r bes
+ g4 g r g
  %11
- a4 a8 a e4 e8 g
+ a4 a8 a a4 bes8 c
  %12
- f4 g a r8 a
+ d4 e d r8 f
  %13
- bes8 r bes bes e,4 f8. g16
+ g8 r bes g a a8. a16
  %14
- f4 a r a
+ f4 d r a'
  %15
  g4 g8 g e4 e8. c16
  %16
