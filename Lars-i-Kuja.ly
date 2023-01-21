@@ -762,7 +762,7 @@ chordsPart = \new ChordNames \chordNames
   >>
   \layout { }
   \midi {
-    \tempo 4=66
+    \tempo 4=104
   }
 }
 

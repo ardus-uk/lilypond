@@ -190,7 +190,7 @@ choirPart = \new ChoirStaff <<
   >>
   \layout { }
   \midi {
-    \tempo 4=66
+    \tempo 4=104
   }
 }
 
