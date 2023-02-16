@@ -2,12 +2,13 @@
 
 \paper {
   left-margin = 20
-  right-margin = 15 
+  right-margin = 20 
 }
 
 \header {
   title = "Lars i Kuja"
   poet = "Gustav Fröding"
+  arranger = "arr. Luke C. Turner"
 }
 
 global = {
