@@ -8,6 +8,7 @@
 \header {
   title = "Lars i Kuja"
   poet = "Gustav Fröding"
+  arranger = "arr. Luke C. Turner"
 }
 
 global = {
